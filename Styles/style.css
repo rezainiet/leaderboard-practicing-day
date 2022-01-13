@@ -70,3 +70,46 @@ main{
     text-decoration: none;
     color: #562EFF;
 }
+
+.course-thumb img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+}
+
+.course-author{
+    color: #ED6B4F;
+}
+
+.course-info .filled{
+    color: #FFC014;
+}
+.course-info .non-filled{
+    color: #AEAEAE;
+}
+.course-name{
+    color: #1E1E1E;
+}
+
+.ratings-text{
+    color: #A2A2A2;
+}
+
+.course-duration{
+    background-color: #FFE4E8;
+    padding: 3px 6px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.fa-clock, .course-time{
+    color: #FF4A60;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
